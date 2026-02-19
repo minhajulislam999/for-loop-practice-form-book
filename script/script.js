@@ -42,3 +42,5 @@ const ExamDate = [3, 16, 20, 25, 28];
 for (const ex of ExamDate){
     console.log(ex);
 }
+
+document.getElementById("demo").innerHTML = "For of loop is used to iterate over the array and print the value of each element in the array.";
