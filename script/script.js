@@ -43,4 +43,15 @@ for (const ex of ExamDate){
     console.log(ex);
 }
 
+// var i = 0;
+// for (n of i){
+//     console.log(n);
+// }
+
+for (var i = 0; i < 3; i++) {
+    console.log("loop:", i);
+}
+console.log("after loop:", i);
+
+
 document.getElementById("demo").innerHTML = "For of loop is used to iterate over the array and print the value of each element in the array.";
