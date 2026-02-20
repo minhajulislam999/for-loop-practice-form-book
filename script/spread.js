@@ -57,4 +57,18 @@ console.log(first); // [1, 2, 3, 4, 5, 6]
 
  console.log(all); // [25, 30, 35, 555, 100, 200, 300] ages array er element gula copy hoye geche, tar sathe 555 add hoye geche, tar por prices array er element gula copy hoye geche
 
- 
+
+
+ //object with spread operator
+
+ const person = {
+    name: 'John',
+    age: 30,
+
+ };
+
+ const employee = {
+    designation: 'Developer',
+    salary: 50000,
+    ...person // person object er property gula copy hoye geche
+ }
