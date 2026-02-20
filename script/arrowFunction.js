@@ -50,4 +50,10 @@ console.log(addition(3, 8));
     }
     console.log(doMath(58, 10));
 
+    // anonymous function
+
+    document.getElementById('demo').addEventListener('click', event =>{
+        console.log('clicked');
+    })
+
 
