@@ -45,4 +45,16 @@ console.log(first); // [1, 2, 3, 4, 5, 6]
 
  console.log(fourth); // [0,1,2,3,4,5,6,8,9]  first array er element gula copy hoye geche, tar sathe 0, 8, 9 add hoye geche
 
+
+
+ // array merge
+
+ const ages = [25, 30, 35];
+
+ const prices = [100, 200, 300];
+
+ const all = [...ages,555, ...prices];
+
+ console.log(all); // [25, 30, 35, 555, 100, 200, 300] ages array er element gula copy hoye geche, tar sathe 555 add hoye geche, tar por prices array er element gula copy hoye geche
+
  
