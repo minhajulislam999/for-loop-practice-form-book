@@ -28,4 +28,9 @@ console.log(Object.keys(employee));
 
     console.log(entries);
     // [['name', 'Raja Rani'], ['designation', 'Qa'], ['salary', 50000], ['experience', 1]]
-    
+
+
+    // delete operator diye object er property delete kora jay
+
+    delete employee.experience;
+    console.log(employee);
