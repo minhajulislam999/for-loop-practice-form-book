@@ -72,3 +72,18 @@ console.log(first); // [1, 2, 3, 4, 5, 6]
     salary: 50000,
     ...person // person object er property gula copy hoye geche
  }
+
+ console.log(employee); // designation: 'Developer', salary: 50000, name: 'John', age: 30
+
+
+ //Function arguments with spread operator
+
+ const total = (a, b, c) => a + b + c;
+
+ const digits = [10, 20, 30];
+
+ console.log(total(...digits)); //  60 digits array er element gula alada kore bebohar kora hoye geche, tar por total function e pass kora hoye geche
+
+ //output: 60 
+
+ 
