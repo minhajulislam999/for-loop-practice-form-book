@@ -34,3 +34,35 @@ console.log(Object.keys(employee));
 
     delete employee.experience;
     console.log(employee);
+    // {name: 'Raja Rani', designation: 'Qa', salary: 50000} experience property delete hoye geche
+
+    //freez() method diye object ke freeze kora jay, freeze kora object er property change kora jay na 
+
+
+    Object.freeze(employee);
+
+    employee.salary = 60000;
+     // freeze kora object er property change kora jay na, tai salary change hoy nai
+
+    console.log(employee);
+    // {name: 'Raja Rani', designation: 'Qa', salary: 50000} salary change hoy nai
+
+
+
+    //seal() method diye object ke seal kora jay,seal kora property delete and add kora jay na, but property change kora jay 
+
+    const person = {
+        name: 'John',
+        age: 30,
+    }
+
+    Object.seal(person);
+
+    person.name = 'Jane'; // property change kora jay
+    person.gender = 'Male'; // property add kora jay na
+    delete person.age; // property delete kora jay na
+
+    console.log(person);
+    // {name: 'Jane', age: 30} name property change hoye geche, but gender property add hoy nai, age property delete hoy nai
+    
+
