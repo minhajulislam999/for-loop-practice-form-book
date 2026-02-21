@@ -21,3 +21,11 @@ const [first, second]= numbers;
 
 console.log(first); // 25
 console.log(second); // 88
+
+
+//direct value theke distructurinh kora jay
+
+const [math, physics] = [90, 99];
+
+console.log(math); // 90
+console.log(physics); // 99
