@@ -57,3 +57,8 @@ console.log(addition(3, 8));
     })
 
 
+    let a = 12, b = 3;
+    [a, b] = [b, a]; // swap kora jay
+    console.log(a); // 3
+    console.log(b); // 12
+
