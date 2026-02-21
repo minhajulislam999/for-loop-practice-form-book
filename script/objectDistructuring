@@ -1,0 +1,23 @@
+// object distructuring
+
+// object distructuring mane holo object er property gula ke alada kore bebohar kora.
+
+const {price, quantity, tax = 7} = {name: 'shirt', 
+    price: 500,
+    quantity: 7
+};
+
+console.log(price); // 500
+console.log(quantity); // 7
+console.log(tax); // 7 tax er value deya hoy nai, tai default value 7
+
+
+// Array distructuring
+
+// array distructuring mane holo array er element gula ke alada kore bebohar kora.
+
+const numbers = [25, 88, 89,101];
+const [first, second]= numbers;
+
+console.log(first); // 25
+console.log(second); // 88
