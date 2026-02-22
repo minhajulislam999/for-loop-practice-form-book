@@ -19,3 +19,15 @@ const car = {
 
 {firstName : "John",lastName :"Doe",age:50, eyeColor: "blue"}
 //output: {firstName: "John", lastName: "Doe", age: 50, eyeColor: "blue"}
+
+
+//you can also create an empty object, and add the properties later:
+
+const person = {};
+
+person.firstName = "John";
+person.lastName = 'Doe';
+person.age = 50;
+person.eyeColer = "blue";
+
+console.log(person);
