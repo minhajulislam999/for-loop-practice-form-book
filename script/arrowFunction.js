@@ -62,3 +62,9 @@ console.log(addition(3, 8));
     console.log(a); // 3
     console.log(b); // 12
 
+
+
+//output: 
+
+
+
