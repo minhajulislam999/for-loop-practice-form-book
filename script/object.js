@@ -31,3 +31,17 @@ person.age = 50;
 person.eyeColer = "blue";
 
 console.log(person);
+
+
+//object properties can be accessed using dot notaion and bracket notaion
+
+console.log(car.type); // output: Fiat
+console.log(person.lastName);
+//output: Doe
+
+
+console.log(car["model"]);
+//output: 500
+
+console.log(person["age"]);
+//output: 50
