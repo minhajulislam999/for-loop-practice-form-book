@@ -45,3 +45,31 @@ console.log(car["model"]);
 
 console.log(person["age"]);
 //output: 50
+
+
+//javascript object methods
+
+const person2 = {
+    firstName: "Minhajul",
+    lastName: "abedin",
+    fullName: function(){
+        return this.firstName + " " + this.lastName;
+    }
+};
+
+console.log(person2.fullName());
+//output: Minhajul abedin
+
+const person3 = {
+    firstName : "saiful",
+    lastName : "islam",
+    fullName : function(){
+        return this.firstName + " " + this.lastName;
+    }
+    }
+    console.log(person3.fullName());
+    //
+    //output: undefined undefined
+    // karon this.firstName and this.lastName er spelling mistake ache, firstName er jage fistName lekha hoyeche, tai this.firstName undefined return kore, same for lastName
+
+    //corrected code
