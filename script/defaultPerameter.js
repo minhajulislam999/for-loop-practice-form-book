@@ -37,3 +37,13 @@ console.log(a+b);
 let output = nums.filter(n => n%2);
 console.log(output);
 }
+
+ // const nums = [1,2,3,4,5];
+
+ const nums = [1,2,3,4,5];
+ let output = nums.map(n => n*2);
+ console.log(output);
+
+ let output2 = nums.filter(n => n%2).map(n => n*2);
+ console.log(output2);
+ 
