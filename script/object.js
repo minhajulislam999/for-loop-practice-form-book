@@ -73,3 +73,20 @@ const person3 = {
     // karon this.firstName and this.lastName er spelling mistake ache, firstName er jage fistName lekha hoyeche, tai this.firstName undefined return kore, same for lastName
 
     //corrected code
+
+
+    //javascript object is a collection of properties, properties can be changed, added, and deleted.
+
+    //object expression
+
+    const person4 = {
+        firstName : "saiful",
+        lastName : "islam",
+        fullName : function(){
+            return this.firstName + " " + this.lastName;
+        }
+    };
+    console.log(person4.fullName());
+    //output: saiful islam
+
+    
