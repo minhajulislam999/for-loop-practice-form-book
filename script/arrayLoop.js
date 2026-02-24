@@ -30,3 +30,13 @@ for(const num of nums){
     const square = num * num;
     console.log(square);
 }
+
+//Problem 1: Print Even Numbers
+
+const numbers2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+for(const n of numbers2){
+    if(n % 2 === 0)
+}
+
+const 
