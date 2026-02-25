@@ -17,8 +17,15 @@ button.addEventListener("click", ()=>{
 
         //2, create HTML element
 
-        const li = document.createElement("li");
-        li.innerText= data.title;
+        const li = document.createElement("div");
+        li.innerHTML= `
+        <div class="post-card">
+            <h1>${data.title}</h1>
+            <p>${data.body}</p>
+
+        </div>
+        
+        `
         
 
         
