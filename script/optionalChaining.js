@@ -17,7 +17,7 @@ const products = [
 ];
 
 const price = products.filter((pro)=>pro.price > 5000)
-console.log(price);
+// console.log(price);
 //output: [] decouse ekhane 5000 tk upore kono product nai
 
 const names = products.map((name)=>{
@@ -26,3 +26,14 @@ const names = products.map((name)=>{
 
 // console.log(names);
 //[ 'Phone', 'Laptop', 'Watch' ] this is output 
+
+function test(a){
+   a = {value: 100};
+   console.log(a)
+}
+
+let obj = {value: 5};
+
+test(obj);
+
+console.log(obj.value);
